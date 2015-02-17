@@ -7,16 +7,6 @@ It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
 based on what is already installed on the machine.
 
-Requirements
-------------
-
-We support:
-
-* [OS X Mavericks (10.9)](https://itunes.apple.com/us/app/os-x-mavericks/id675248567)
-* [OS X Yosemite (10.10)](https://www.apple.com/osx/)
-
-Older versions may work but aren't regularly tested. Bug reports for older
-versions are welcome.
 
 Install
 -------
@@ -24,7 +14,7 @@ Install
 Download, review, then execute the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/tomtoday/laptop/master/mac
 less mac
 sh mac 2>&1 | tee ~/laptop.log
 ```
@@ -42,22 +32,13 @@ What it sets up
 ---------------
 
 * [Bundler] for managing Ruby libraries
-* [Exuberant Ctags] for indexing files for vim tab completion
 * [Foreman] for managing web processes
-* [gh] for interacting with the GitHub API
 * [Heroku Toolbelt] for interacting with the Heroku API
 * [Homebrew] for managing operating system libraries
-* [ImageMagick] for cropping and resizing images
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [Postgres] for storing relational data
-* [Qt] for headless JavaScript testing via Capybara Webkit
-* [Rbenv] for managing versions of Ruby
 * [RCM] for managing company and personal dotfiles
 * [Redis] for storing key-value data
-* [Ruby Build] for installing Rubies
-* [Ruby] stable for writing general-purpose code
-* [The Silver Searcher] for finding things in files
-* [Tmux] for saving project state and switching between projects
 * [Zsh] as your shell
 
 [Bundler]: http://bundler.io/
@@ -119,26 +100,7 @@ for more customization examples.
 Credits
 -------
 
-![thoughtbot](http://thoughtbot.com/assets/tm/logo.png)
-
-Laptop is maintained and funded by [thoughtbot, inc](http://thoughtbot.com/community).
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-Thank you, [contributors](https://github.com/thoughtbot/laptop/graphs/contributors)!
-
-Contributing
-------------
-
-Edit the `mac` file.
-Document in the `README.md` file.
-Follow shell style guidelines by using [ShellCheck] and [Syntastic].
-
-```sh
-brew install shellcheck
-```
-
-[ShellCheck]: http://www.shellcheck.net/about.html
-[Syntastic]: https://github.com/scrooloose/syntastic
+Forked from http://github.com/thoughtbot/laptop
 
 License
 -------
