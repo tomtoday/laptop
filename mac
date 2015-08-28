@@ -139,8 +139,8 @@ brew_install_or_upgrade 'redis'
 brew_launchctl_restart 'redis'
 brew_install_or_upgrade 'node'
 brew_install_or_upgrade 'go'
-brew_install_or_upgrade 'docker'
-brew_install_or_upgrade 'boot2docker'
+# brew_install_or_upgrade 'docker'
+# brew_install_or_upgrade 'boot2docker'
 
 # install rvm
 curl -sSL https://get.rvm.io | bash -s stable --ruby

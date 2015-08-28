@@ -105,6 +105,5 @@ Forked from http://github.com/thoughtbot/laptop
 License
 -------
 
-Laptop is © 2011-2015 thoughtbot, inc.
- It is free software,
+It is free software,
 and may be redistributed under the terms specified in the LICENSE file.
